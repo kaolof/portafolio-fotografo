@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box; /*para que ocupen el especiado externo e interno, sumen un solo espaciado */
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+
+.container{
+     width: 90%;
+     margin: auto;
+}
+
+.nav-main{
+     font-size: 20px;
+     display:flex;
+     justify-content:space-between;
+     align-items:center ;
+     padding: 10px;
+     height: 50px;
+}
+
+.nav-main ul{
+     display: flex;
+}
+
+.nav-main li{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.nav-main ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.container img{
+    width: 100%;
+    height: 700px;
+}
+
+
+
