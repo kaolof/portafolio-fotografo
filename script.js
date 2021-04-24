@@ -1,6 +1,18 @@
+var li= document.getElementsByTagName("li");
+
+
 document.querySelector('.menu-btn').addEventListener('click', () =>{
-    document.querySelector('.nav-menu').classList.toggle('show')
+    document.querySelector('.nav-menu').classList.toggle('show');
+
 });
+
+for(i=0; i<li.length; i++){
+    
+    li[i].addEventListener('click', () =>{
+        document.querySelector('.nav-menu').classList.toggle('show');
+
+    });
+}
 
 ScrollReveal().reveal('.carousel');
 ScrollReveal().reveal('.about', {delay:500});
